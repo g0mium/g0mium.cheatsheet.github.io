@@ -63,9 +63,11 @@ h1 {
 }
 
 h2 {
-  margin: 30px 0px 30px 130px;
   font-weight: 600;
   font-size: 26px;
+  color: #7c51b1;
+  width: 80%;
+  margin: 60px auto 20px auto;
 }
 
 .property {
@@ -84,7 +86,7 @@ h2 {
 table {
   margin-bottom: 50px;
   width: 80%;
-  margin:  auto;
+  margin: auto;
 }
 
 .description {
