@@ -1,3 +1,7 @@
+html {
+  margin: 0;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   background-color: #212121;
@@ -59,7 +63,8 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 60px;
+  font-size: 80px;
+  margin: 120px;
 }
 
 h2 {
