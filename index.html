@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic CSS Properties</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Mono&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Some basic CSS properties</h1>
+      <nav>
+        <div class="navitem"><a href="#text">Text properties</a></div>
+        <div class="navitem"><a href="#color">Color properties</a></div>
+        <div class="navitem"><a href="#spacing">Spacing properties</a></div>
+      </nav>
+    </header>
+    <section class="content">
+      <h2 id="text">Text Properties</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>Property</th>
+            <th class="description">Description</th>
+            <th>Example Values</th>
+          </tr>
+          <tr>
+            <td class="property">font-family</td>
+            <td class="description">Allows us to change the particular font we are using</td>
+            <td class="values">
+              Verdana <br />
+              'Times New Roman' <br />
+              serif
+            </td>
+          </tr>
+          <tr>
+            <td class="property">font-size</td>
+            <td class="description">
+              Allows us to change the size of the font we are using in different values.
+            </td>
+            <td class="values">
+              18px <br />
+              1.3em <br />
+              2rem
+            </td>
+          </tr>
+          <tr>
+            <td class="property">font-weight</td>
+            <td class="description">
+              Allows us to specify how thick the lines of the characters are
+            </td>
+            <td class="values">
+              normal <br />
+              thin <br />
+              bold <br />
+              800
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 id="color">Color Properties</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>Property</th>
+            <th class="description">Description</th>
+            <th>Example Values</th>
+          </tr>
+          <tr>
+            <td class="property">color</td>
+            <td class="description">Allows us to specify the colour of the text</td>
+            <td rowspan="2" class="values">
+              green <br />
+              #ffffff <br />
+              hsl(21, 30%, 10%)
+            </td>
+          </tr>
+          <tr>
+            <td class="property">background-color</td>
+            <td class="description">allows us to specify the background colour for the element</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 id="spacing">Spacing Properties</h2>
+      <table>
+        <tbody>
+          <tr>
+            <th>Property</th>
+            <th class="description">Description</th>
+            <th>Example Values</th>
+          </tr>
+          <tr>
+            <td class="property">padding</td>
+            <td class="description">
+              Refers to the space around out content.<br />We may specify the padding in 3
+              methods:<br />
+              <ul>
+                <li>A single value - in which case it will be applied to every side.</li>
+                <li>
+                  As two values - in which case the first unit specifies the top and bottom padding
+                  and the second unit the left and right padding.
+                </li>
+                <li>
+                  As four values - in which case the first applies to the top, the second to the
+                  right, the third to the bottom and the fourth to the left.
+                </li>
+              </ul>
+            </td>
+            <td rowspan="2" class="values">
+              <li>5px</li>
+              <li>5px 10px</li>
+              <li>5px 10px 5px 13px</li>
+            </td>
+          </tr>
+          <tr>
+            <td class="property">margin</td>
+            <td class="description">
+              Used to create space around elements, outside of any defined borders.
+            </td>
+          </tr>
+          <tr>
+            <td class="property">border</td>
+            <td class="description">
+              The CSS border properties allow you to specify the style, width, and color of an
+              element's border.
+            </td>
+            <td class="values">2px solid #ffffff</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
